@@ -1,6 +1,8 @@
-#!/bin/bash
 # Based on official Wazuh active response script for malware removal
 # Source: https://documentation.wazuh.com/current/proof-of-concept-guide/detect-remove-malware-virustotal.html
+
+#!/bin/bash
+
 LOCAL=`dirname $0`;
 cd $LOCAL
 cd ../
