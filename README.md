@@ -6,13 +6,7 @@ A hands-on security lab using Wazuh to build an automated threat detection and r
 
 <br>
 
-## Architecture :
 
-- **Wazuh Server** (Ubuntu 24.04) - Central management and analysis
-- **Ubuntu Agent** - Monitored endpoint with FIM
-- **Windows 10 Agent** - Monitored endpoint
-- **VirusTotal Integration** - Threat intelligence API
-- **Active Response** - Automatic file deletion on detection
 
 ## Features :
 -  Multi-OS agent deployment (Ubuntu + Windows)
@@ -31,7 +25,7 @@ A hands-on security lab using Wazuh to build an automated threat detection and r
 ##  How It Works :
 1. **File Created** - Agent detects new file in monitored directory
 2. **Hash Sent** - Wazuh manager queries VirusTotal
-3. **Alert Triggered** - Malicious file detected (67/68 engines)
+3. **Alert Triggered** - Malicious file detected 
 4. **Active Response** - Manager commands agent to delete file
 5. **Verification** - File removed, events logged in dashboard
    
